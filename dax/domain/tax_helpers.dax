@@ -1,0 +1,8 @@
+-- Optional GST/PST helpers (Canadian entities). Apply only when entity tax rates > 0.
+GST Amount Est =
+SUMX (
+    'dim_job',
+    LOOKUPVALUE ( 'dim_entity'[GSTRate], 'dim_entity'[EntityKey], 'dim_job'[EntityKey] )
+        * RELATED ( /* use job contract in detailed model */ 'dim_job'[ContractValue] )
+)
+-- Prefer computing tax in source ERP; these are illustrative only.

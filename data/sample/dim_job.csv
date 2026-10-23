@@ -1,31 +1,61 @@
-JobId,JobName,ClientName,JobType,Status,ContractValue,StartDate,EstEndDate,PercentComplete,PM
-JOB001,Project A-1,Client Delta 1,Commercial,Complete,1431095.45,2024-03-10,2024-07-13,0.91,L. Okonkwo
-JOB002,Project B-2,Client Delta 2,Commercial,Complete,1020710.11,2024-09-11,2025-01-19,0.26,J. Rivera
-JOB003,Project C-3,Client Delta 3,Commercial,Active,3276335.23,2024-09-17,2025-06-14,0.28,L. Okonkwo
-JOB004,Project D-4,Client Gamma 4,Infrastructure,Complete,3204897.54,2024-01-31,2024-06-15,0.4,J. Rivera
-JOB005,Project E-5,Client Alpha 5,Infrastructure,Complete,3035587.0,2024-08-18,2026-01-10,0.41,L. Okonkwo
-JOB006,Project F-6,Client Gamma 6,Infrastructure,Active,2608277.21,2024-09-06,2025-01-25,0.41,A. Patel
-JOB007,Project G-7,Client Omega 7,Residential,Active,4309552.33,2024-07-20,2025-12-21,0.53,A. Patel
-JOB008,Project H-8,Client Delta 8,Residential,Active,2249376.64,2024-08-29,2025-09-01,0.61,M. Chen
-JOB009,Project I-9,Client Beta 9,Infrastructure,Active,140524.62,2024-07-28,2025-07-19,0.13,J. Rivera
-JOB010,Project J-10,Client Delta 10,Residential,Active,420853.46,2024-05-11,2024-10-01,0.64,M. Chen
-JOB011,Project K-11,Client Beta 11,Infrastructure,On Hold,2899574.26,2024-06-14,2025-12-02,0.83,J. Rivera
-JOB012,Project L-12,Client Alpha 12,Infrastructure,Active,3747671.43,2024-07-28,2024-11-14,0.23,L. Okonkwo
-JOB013,Project M-13,Client Delta 13,Commercial,Active,125354.19,2024-10-06,2025-05-19,0.19,M. Chen
-JOB014,Project N-14,Client Omega 14,Residential,Active,1969326.57,2024-04-16,2025-06-04,0.3,J. Rivera
-JOB015,Project O-15,Client Omega 15,Commercial,On Hold,628339.47,2024-08-20,2025-04-29,0.8,S. Khan
-JOB016,Project P-16,Client Alpha 16,Renovation,Complete,1923515.13,2024-10-21,2025-08-12,0.3,L. Okonkwo
-JOB017,Project Q-17,Client Alpha 17,Commercial,Active,4347532.32,2024-11-16,2025-10-30,0.56,J. Rivera
-JOB018,Project R-18,Client Gamma 18,Infrastructure,Active,2350066.11,2024-11-10,2025-04-06,0.86,A. Patel
-JOB019,Project S-19,Client Delta 19,Commercial,Complete,1559492.59,2025-01-27,2025-06-29,0.48,A. Patel
-JOB020,Project T-20,Client Delta 20,Residential,Active,2931099.31,2024-01-11,2025-05-02,0.41,J. Rivera
-JOB021,Project U-21,Client Alpha 21,Commercial,Active,3277293.65,2025-02-01,2025-08-16,0.61,L. Okonkwo
-JOB022,Project V-22,Client Beta 22,Renovation,Complete,2341786.23,2024-02-03,2025-04-01,0.76,L. Okonkwo
-JOB023,Project W-23,Client Beta 23,Renovation,Active,3327465.65,2024-04-23,2025-08-15,0.5,S. Khan
-JOB024,Project X-24,Client Alpha 24,Residential,On Hold,533003.73,2024-05-08,2024-10-02,0.94,J. Rivera
-JOB025,Project Y-25,Client Delta 25,Residential,Active,2365411.75,2024-04-08,2025-04-12,0.17,A. Patel
-JOB026,Project Z-26,Client Beta 26,Residential,Active,1278542.3,2024-06-27,2024-10-29,0.67,A. Patel
-JOB027,Project A-27,Client Omega 27,Residential,Active,4037641.41,2024-04-29,2025-03-15,0.49,S. Khan
-JOB028,Project B-28,Client Alpha 28,Residential,Active,3439873.19,2024-05-17,2025-08-12,0.71,L. Okonkwo
-JOB029,Project C-29,Client Omega 29,Commercial,Active,1311847.91,2024-12-26,2025-08-11,0.4,A. Patel
-JOB030,Project D-30,Client Alpha 30,Renovation,On Hold,2937419.88,2024-10-09,2025-06-14,0.14,A. Patel
+JobKey,JobId,JobName,EntityKey,JobType,Status,ContractValue,StartDate,EndDatePlanned,PMName,ClientName
+1,JOB-0001,Project 0001,3,Industrial,Active,21898650.77,2024-03-13,2025-10-03,PM 2,Owner 2
+2,JOB-0002,Project 0002,3,Institutional,Active,8964522.95,2024-08-06,2025-06-10,PM 3,Owner 3
+3,JOB-0003,Project 0003,1,Residential Multi,Complete,23137412.98,2024-09-03,2026-08-04,PM 4,Owner 4
+4,JOB-0004,Project 0004,1,Infrastructure,Warranty,13527830.72,2023-04-03,2024-12-27,PM 5,Owner 5
+5,JOB-0005,Project 0005,3,Commercial,On Hold,7732452.78,2023-08-01,2024-08-09,PM 6,Owner 6
+6,JOB-0006,Project 0006,1,Industrial,Active,14523712.64,2024-11-24,2026-01-31,PM 7,Owner 7
+7,JOB-0007,Project 0007,2,Institutional,Active,22360404.2,2024-01-23,2025-05-07,PM 8,Owner 8
+8,JOB-0008,Project 0008,3,Residential Multi,Active,27699716.02,2024-05-05,2025-10-21,PM 9,Owner 9
+9,JOB-0009,Project 0009,2,Infrastructure,Complete,17461077.24,2023-05-31,2025-03-22,PM 10,Owner 10
+10,JOB-0010,Project 0010,1,Commercial,Warranty,1770503.58,2023-03-22,2023-10-13,PM 11,Owner 11
+11,JOB-0011,Project 0011,1,Industrial,On Hold,25746963.43,2023-12-27,2025-12-29,PM 12,Owner 12
+12,JOB-0012,Project 0012,2,Institutional,Active,14783999.99,2024-07-30,2026-01-19,PM 1,Owner 13
+13,JOB-0013,Project 0013,1,Residential Multi,Active,1120797.49,2023-12-14,2025-01-13,PM 2,Owner 14
+14,JOB-0014,Project 0014,1,Infrastructure,Active,19623273.69,2023-03-10,2023-12-24,PM 3,Owner 15
+15,JOB-0015,Project 0015,3,Commercial,Complete,901571.38,2023-05-21,2024-12-31,PM 4,Owner 16
+16,JOB-0016,Project 0016,2,Industrial,Warranty,5001341.4,2024-03-08,2025-12-21,PM 5,Owner 17
+17,JOB-0017,Project 0017,2,Institutional,On Hold,14666310.03,2023-07-07,2025-07-05,PM 6,Owner 18
+18,JOB-0018,Project 0018,3,Residential Multi,Active,18200306.94,2024-10-19,2026-08-12,PM 7,Owner 19
+19,JOB-0019,Project 0019,1,Infrastructure,Active,15519111.94,2024-06-03,2025-08-26,PM 8,Owner 20
+20,JOB-0020,Project 0020,1,Commercial,Active,24500431.05,2024-05-23,2025-09-04,PM 9,Owner 1
+21,JOB-0021,Project 0021,3,Industrial,Complete,2411644.67,2023-09-10,2025-03-09,PM 10,Owner 2
+22,JOB-0022,Project 0022,2,Institutional,Warranty,9586588.62,2024-04-07,2025-05-12,PM 11,Owner 3
+23,JOB-0023,Project 0023,1,Residential Multi,On Hold,11120935.87,2023-04-16,2024-05-17,PM 12,Owner 4
+24,JOB-0024,Project 0024,3,Infrastructure,Active,16847774.05,2024-02-07,2026-02-13,PM 1,Owner 5
+25,JOB-0025,Project 0025,2,Commercial,Active,19199446.63,2024-02-28,2025-05-07,PM 2,Owner 6
+26,JOB-0026,Project 0026,2,Industrial,Active,12776526.31,2024-10-31,2025-07-23,PM 3,Owner 7
+27,JOB-0027,Project 0027,2,Institutional,Complete,3430351.35,2023-06-17,2024-01-12,PM 4,Owner 8
+28,JOB-0028,Project 0028,2,Residential Multi,Warranty,6648109.82,2023-10-12,2025-10-12,PM 5,Owner 9
+29,JOB-0029,Project 0029,1,Infrastructure,On Hold,24574895.11,2024-04-15,2024-10-20,PM 6,Owner 10
+30,JOB-0030,Project 0030,1,Commercial,Active,4379950.19,2023-03-06,2024-09-13,PM 7,Owner 11
+31,JOB-0031,Project 0031,3,Industrial,Active,25386536.64,2024-08-14,2025-11-12,PM 8,Owner 12
+32,JOB-0032,Project 0032,3,Institutional,Active,4756510.74,2024-11-03,2026-03-22,PM 9,Owner 13
+33,JOB-0033,Project 0033,2,Residential Multi,Complete,15823280.46,2023-05-15,2025-01-11,PM 10,Owner 14
+34,JOB-0034,Project 0034,3,Infrastructure,Warranty,24846347.52,2023-02-04,2023-11-13,PM 11,Owner 15
+35,JOB-0035,Project 0035,3,Commercial,On Hold,11035029.14,2024-03-25,2025-08-19,PM 12,Owner 16
+36,JOB-0036,Project 0036,2,Industrial,Active,7314106.58,2024-11-19,2026-01-07,PM 1,Owner 17
+37,JOB-0037,Project 0037,3,Institutional,Active,13522261.9,2023-01-27,2025-01-28,PM 2,Owner 18
+38,JOB-0038,Project 0038,3,Residential Multi,Active,9562842.03,2024-06-17,2025-10-22,PM 3,Owner 19
+39,JOB-0039,Project 0039,2,Infrastructure,Complete,10923439.41,2024-06-09,2025-01-06,PM 4,Owner 20
+40,JOB-0040,Project 0040,1,Commercial,Warranty,4142665.18,2024-07-16,2025-01-29,PM 5,Owner 1
+41,JOB-0041,Project 0041,2,Industrial,On Hold,12447590.7,2024-11-08,2025-07-07,PM 6,Owner 2
+42,JOB-0042,Project 0042,2,Institutional,Active,24540410.47,2023-02-25,2024-06-17,PM 7,Owner 3
+43,JOB-0043,Project 0043,3,Residential Multi,Active,19396214.95,2023-08-29,2024-03-29,PM 8,Owner 4
+44,JOB-0044,Project 0044,2,Infrastructure,Active,14919478.83,2024-08-27,2025-09-13,PM 9,Owner 5
+45,JOB-0045,Project 0045,2,Commercial,Complete,4908893.96,2024-06-19,2026-03-10,PM 10,Owner 6
+46,JOB-0046,Project 0046,3,Industrial,Warranty,940865.15,2023-10-16,2025-09-27,PM 11,Owner 7
+47,JOB-0047,Project 0047,2,Institutional,On Hold,4519982.2,2024-06-11,2026-02-04,PM 12,Owner 8
+48,JOB-0048,Project 0048,3,Residential Multi,Active,22974970.76,2024-08-15,2025-10-07,PM 1,Owner 9
+49,JOB-0049,Project 0049,3,Infrastructure,Active,22370243.5,2023-01-10,2024-11-13,PM 2,Owner 10
+50,JOB-0050,Project 0050,2,Commercial,Active,20543104.24,2024-10-28,2026-02-12,PM 3,Owner 11
+51,JOB-0051,Project 0051,1,Industrial,Complete,10677053.05,2023-06-08,2024-03-23,PM 4,Owner 12
+52,JOB-0052,Project 0052,1,Institutional,Warranty,10212871.14,2023-03-16,2023-12-23,PM 5,Owner 13
+53,JOB-0053,Project 0053,1,Residential Multi,On Hold,10049851.43,2024-10-25,2026-08-29,PM 6,Owner 14
+54,JOB-0054,Project 0054,2,Infrastructure,Active,26695474.15,2023-04-07,2024-03-06,PM 7,Owner 15
+55,JOB-0055,Project 0055,1,Commercial,Active,14822216.6,2023-11-08,2024-08-29,PM 8,Owner 16
+56,JOB-0056,Project 0056,3,Industrial,Active,25185902.25,2024-10-27,2026-02-16,PM 9,Owner 17
+57,JOB-0057,Project 0057,3,Institutional,Complete,12404866.5,2024-06-03,2025-10-24,PM 10,Owner 18
+58,JOB-0058,Project 0058,2,Residential Multi,Warranty,11996775.28,2024-10-24,2026-09-04,PM 11,Owner 19
+59,JOB-0059,Project 0059,3,Infrastructure,On Hold,12495914.64,2024-10-07,2025-05-30,PM 12,Owner 20
+60,JOB-0060,Project 0060,1,Commercial,Active,26665518.92,2023-04-24,2024-08-12,PM 1,Owner 1

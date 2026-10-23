@@ -1,0 +1,17 @@
+Actual Cost = SUM ( 'fact_actuals'[ActualAmount] )
+
+Budget Current =
+CALCULATE ( SUM ( 'fact_budget'[BudgetAmount] ), 'fact_budget'[BudgetVersion] = "Current" )
+
+Budget Baseline =
+CALCULATE ( SUM ( 'fact_budget'[BudgetAmount] ), 'fact_budget'[BudgetVersion] = "Baseline" )
+
+Variance = [Budget Current] - [Actual Cost]
+
+Variance % = DIVIDE ( [Variance], [Budget Current] )
+
+Approved Change Orders =
+CALCULATE ( SUM ( 'fact_change_orders'[Amount] ), 'fact_change_orders'[Status] = "Approved" )
+
+Revised Contract =
+SUM ( 'dim_job'[ContractValue] ) + [Approved Change Orders]

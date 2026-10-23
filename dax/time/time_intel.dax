@@ -1,0 +1,8 @@
+Actual Cost YTD = TOTALYTD ( [Actual Cost], 'dim_date'[Date] )
+
+Actual Cost PY = CALCULATE ( [Actual Cost], SAMEPERIODLASTYEAR ( 'dim_date'[Date] ) )
+
+Actual Cost YoY % = DIVIDE ( [Actual Cost] - [Actual Cost PY], [Actual Cost PY] )
+
+Labour Cost Rolling 12 =
+CALCULATE ( [Labour Cost], DATESINPERIOD ( 'dim_date'[Date], MAX ( 'dim_date'[Date] ), -12, MONTH ) )

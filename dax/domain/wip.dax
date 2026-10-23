@@ -1,0 +1,25 @@
+-- WIP measures: use latest period in filter context
+Earned Revenue = SUM ( 'fact_wip'[EarnedRevenue] )
+
+Billed To Date = SUM ( 'fact_wip'[BilledToDate] )
+
+Over Under Billing = SUM ( 'fact_wip'[OverUnderBilling] )
+
+Cost To Date WIP = SUM ( 'fact_wip'[CostToDate] )
+
+Percent Complete Weighted =
+DIVIDE ( [Earned Revenue], SUM ( 'fact_wip'[RevisedContract] ) )
+
+Estimated Profit = SUM ( 'fact_wip'[EstimatedProfit] )
+
+Jobs Overbilled =
+CALCULATE (
+    DISTINCTCOUNT ( 'fact_wip'[JobKey] ),
+    'fact_wip'[OverUnderBilling] > 0
+)
+
+Jobs Underbilled =
+CALCULATE (
+    DISTINCTCOUNT ( 'fact_wip'[JobKey] ),
+    'fact_wip'[OverUnderBilling] < 0
+)

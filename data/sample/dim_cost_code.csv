@@ -1,0 +1,49 @@
+CostCodeKey,CostCode,CostCodeName,CostFamily,CostType
+1,01-01,General Conditions - Item 1,General Conditions,Material
+2,01-02,General Conditions - Item 2,General Conditions,Subcontract
+3,01-03,General Conditions - Item 3,General Conditions,Equipment
+4,01-04,General Conditions - Item 4,General Conditions,Labour
+5,03-01,Concrete - Item 1,Concrete,Material
+6,03-02,Concrete - Item 2,Concrete,Subcontract
+7,03-03,Concrete - Item 3,Concrete,Equipment
+8,03-04,Concrete - Item 4,Concrete,Labour
+9,05-01,Metals - Item 1,Metals,Material
+10,05-02,Metals - Item 2,Metals,Subcontract
+11,05-03,Metals - Item 3,Metals,Equipment
+12,05-04,Metals - Item 4,Metals,Labour
+13,06-01,Wood & Plastics - Item 1,Wood & Plastics,Material
+14,06-02,Wood & Plastics - Item 2,Wood & Plastics,Subcontract
+15,06-03,Wood & Plastics - Item 3,Wood & Plastics,Equipment
+16,06-04,Wood & Plastics - Item 4,Wood & Plastics,Labour
+17,07-01,Thermal & Moisture - Item 1,Thermal & Moisture,Material
+18,07-02,Thermal & Moisture - Item 2,Thermal & Moisture,Subcontract
+19,07-03,Thermal & Moisture - Item 3,Thermal & Moisture,Equipment
+20,07-04,Thermal & Moisture - Item 4,Thermal & Moisture,Labour
+21,09-01,Finishes - Item 1,Finishes,Material
+22,09-02,Finishes - Item 2,Finishes,Subcontract
+23,09-03,Finishes - Item 3,Finishes,Equipment
+24,09-04,Finishes - Item 4,Finishes,Labour
+25,15-01,Mechanical - Item 1,Mechanical,Material
+26,15-02,Mechanical - Item 2,Mechanical,Subcontract
+27,15-03,Mechanical - Item 3,Mechanical,Equipment
+28,15-04,Mechanical - Item 4,Mechanical,Labour
+29,16-01,Electrical - Item 1,Electrical,Material
+30,16-02,Electrical - Item 2,Electrical,Subcontract
+31,16-03,Electrical - Item 3,Electrical,Equipment
+32,16-04,Electrical - Item 4,Electrical,Labour
+33,26-01,Electrical Power - Item 1,Electrical Power,Material
+34,26-02,Electrical Power - Item 2,Electrical Power,Subcontract
+35,26-03,Electrical Power - Item 3,Electrical Power,Equipment
+36,26-04,Electrical Power - Item 4,Electrical Power,Labour
+37,31-01,Earthwork - Item 1,Earthwork,Material
+38,31-02,Earthwork - Item 2,Earthwork,Subcontract
+39,31-03,Earthwork - Item 3,Earthwork,Equipment
+40,31-04,Earthwork - Item 4,Earthwork,Labour
+41,32-01,Exterior Improvements - Item 1,Exterior Improvements,Material
+42,32-02,Exterior Improvements - Item 2,Exterior Improvements,Subcontract
+43,32-03,Exterior Improvements - Item 3,Exterior Improvements,Equipment
+44,32-04,Exterior Improvements - Item 4,Exterior Improvements,Labour
+45,33-01,Utilities - Item 1,Utilities,Material
+46,33-02,Utilities - Item 2,Utilities,Subcontract
+47,33-03,Utilities - Item 3,Utilities,Equipment
+48,33-04,Utilities - Item 4,Utilities,Labour

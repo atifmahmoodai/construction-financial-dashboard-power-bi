@@ -1,0 +1,18 @@
+Labour Hours = SUM ( 'fact_labour'[Hours] )
+
+Labour Cost = SUM ( 'fact_labour'[LabourCost] )
+
+Overtime Hours =
+CALCULATE ( [Labour Hours], 'fact_labour'[IsOvertime] = 1 )
+
+Overtime % = DIVIDE ( [Overtime Hours], [Labour Hours] )
+
+AR Open Balance = SUM ( 'fact_ar_aging'[OpenBalance] )
+
+AR Current =
+CALCULATE ( [AR Open Balance], 'fact_ar_aging'[AgingBucket] = "Current" )
+
+AR 90 Plus =
+CALCULATE ( [AR Open Balance], 'fact_ar_aging'[AgingBucket] = "90+" )
+
+AR 90+ % = DIVIDE ( [AR 90 Plus], [AR Open Balance] )

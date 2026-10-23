@@ -1,0 +1,5 @@
+- [ ] Budget Current vs Actual variance reconciles to sample within 0.1%
+- [ ] WIP over/under matches documented formula
+- [ ] AR buckets sort correctly; 90+ % accurate
+- [ ] Five pages match specs; CAD/USD labelled per entity
+- [ ] Refresh runbook tested

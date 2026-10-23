@@ -1,20 +1,18 @@
 # Relationships
 
-| From | To | Cardinality | Active |
-|------|----|-------------|--------|
-| fact_budget[JobId] | dim_job[JobId] | Many:1 | Yes |
-| fact_actuals[JobId] | dim_job[JobId] | Many:1 | Yes |
-| fact_ar_aging[JobId] | dim_job[JobId] | Many:1 | Yes |
-| fact_change_orders[JobId] | dim_job[JobId] | Many:1 | Yes |
-| fact_wip[JobId] | dim_job[JobId] | Many:1 | Yes |
-| fact_labour[JobId] | dim_job[JobId] | Many:1 | Yes |
+| From | To | Card | Filter | Active |
+|------|----|------|--------|--------|
+| fact_actuals[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| fact_actuals[CostCodeKey] | dim_cost_code[CostCodeKey] | *∶1 | Single | Y |
+| fact_actuals[TxnDateKey] | dim_date[DateKey] | *∶1 | Single | Y |
+| fact_budget[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| fact_budget[CostCodeKey] | dim_cost_code[CostCodeKey] | *∶1 | Single | Y |
+| fact_labour[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| fact_labour[WorkDateKey] | dim_date[DateKey] | *∶1 | Single | Y |
+| fact_change_orders[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| fact_wip[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| fact_wip[PeriodDateKey] | dim_date[DateKey] | *∶1 | Single | Y |
+| fact_ar_aging[JobKey] | dim_job[JobKey] | *∶1 | Single | Y |
+| dim_job[EntityKey] | dim_entity[EntityKey] | *∶1 | Single | Y |
 
-### Recommended date handling
-
-Create `dim_date` (calendar) and relate:
-
-- fact_budget[Period] → dim_date[Date] (month-start dates in sample)
-- fact_actuals[Period] → dim_date[Date]
-- fact_labour[WorkDate] → dim_date[Date] (inactive or separate role-playing tables if needed)
-
-Keep WIP as a **snapshot** fact filtered to latest AsOfDate.
+Avoid bidirectional job↔actuals. Filter budget version in measures, not with bi-di.
