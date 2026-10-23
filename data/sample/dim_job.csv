@@ -1,0 +1,31 @@
+JobId,JobName,ClientName,JobType,Status,ContractValue,StartDate,EstEndDate,PercentComplete,PM
+JOB001,Project A-1,Client Delta 1,Commercial,Complete,1431095.45,2024-03-10,2024-07-13,0.91,L. Okonkwo
+JOB002,Project B-2,Client Delta 2,Commercial,Complete,1020710.11,2024-09-11,2025-01-19,0.26,J. Rivera
+JOB003,Project C-3,Client Delta 3,Commercial,Active,3276335.23,2024-09-17,2025-06-14,0.28,L. Okonkwo
+JOB004,Project D-4,Client Gamma 4,Infrastructure,Complete,3204897.54,2024-01-31,2024-06-15,0.4,J. Rivera
+JOB005,Project E-5,Client Alpha 5,Infrastructure,Complete,3035587.0,2024-08-18,2026-01-10,0.41,L. Okonkwo
+JOB006,Project F-6,Client Gamma 6,Infrastructure,Active,2608277.21,2024-09-06,2025-01-25,0.41,A. Patel
+JOB007,Project G-7,Client Omega 7,Residential,Active,4309552.33,2024-07-20,2025-12-21,0.53,A. Patel
+JOB008,Project H-8,Client Delta 8,Residential,Active,2249376.64,2024-08-29,2025-09-01,0.61,M. Chen
+JOB009,Project I-9,Client Beta 9,Infrastructure,Active,140524.62,2024-07-28,2025-07-19,0.13,J. Rivera
+JOB010,Project J-10,Client Delta 10,Residential,Active,420853.46,2024-05-11,2024-10-01,0.64,M. Chen
+JOB011,Project K-11,Client Beta 11,Infrastructure,On Hold,2899574.26,2024-06-14,2025-12-02,0.83,J. Rivera
+JOB012,Project L-12,Client Alpha 12,Infrastructure,Active,3747671.43,2024-07-28,2024-11-14,0.23,L. Okonkwo
+JOB013,Project M-13,Client Delta 13,Commercial,Active,125354.19,2024-10-06,2025-05-19,0.19,M. Chen
+JOB014,Project N-14,Client Omega 14,Residential,Active,1969326.57,2024-04-16,2025-06-04,0.3,J. Rivera
+JOB015,Project O-15,Client Omega 15,Commercial,On Hold,628339.47,2024-08-20,2025-04-29,0.8,S. Khan
+JOB016,Project P-16,Client Alpha 16,Renovation,Complete,1923515.13,2024-10-21,2025-08-12,0.3,L. Okonkwo
+JOB017,Project Q-17,Client Alpha 17,Commercial,Active,4347532.32,2024-11-16,2025-10-30,0.56,J. Rivera
+JOB018,Project R-18,Client Gamma 18,Infrastructure,Active,2350066.11,2024-11-10,2025-04-06,0.86,A. Patel
+JOB019,Project S-19,Client Delta 19,Commercial,Complete,1559492.59,2025-01-27,2025-06-29,0.48,A. Patel
+JOB020,Project T-20,Client Delta 20,Residential,Active,2931099.31,2024-01-11,2025-05-02,0.41,J. Rivera
+JOB021,Project U-21,Client Alpha 21,Commercial,Active,3277293.65,2025-02-01,2025-08-16,0.61,L. Okonkwo
+JOB022,Project V-22,Client Beta 22,Renovation,Complete,2341786.23,2024-02-03,2025-04-01,0.76,L. Okonkwo
+JOB023,Project W-23,Client Beta 23,Renovation,Active,3327465.65,2024-04-23,2025-08-15,0.5,S. Khan
+JOB024,Project X-24,Client Alpha 24,Residential,On Hold,533003.73,2024-05-08,2024-10-02,0.94,J. Rivera
+JOB025,Project Y-25,Client Delta 25,Residential,Active,2365411.75,2024-04-08,2025-04-12,0.17,A. Patel
+JOB026,Project Z-26,Client Beta 26,Residential,Active,1278542.3,2024-06-27,2024-10-29,0.67,A. Patel
+JOB027,Project A-27,Client Omega 27,Residential,Active,4037641.41,2024-04-29,2025-03-15,0.49,S. Khan
+JOB028,Project B-28,Client Alpha 28,Residential,Active,3439873.19,2024-05-17,2025-08-12,0.71,L. Okonkwo
+JOB029,Project C-29,Client Omega 29,Commercial,Active,1311847.91,2024-12-26,2025-08-11,0.4,A. Patel
+JOB030,Project D-30,Client Alpha 30,Renovation,On Hold,2937419.88,2024-10-09,2025-06-14,0.14,A. Patel
